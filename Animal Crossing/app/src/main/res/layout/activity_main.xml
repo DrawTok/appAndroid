@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grass"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Xác nhận"
+        app:layout_constraintTop_toTopOf="@id/txtMoney"
+        app:layout_constraintBottom_toBottomOf="@id/txtMoney"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <CheckBox
+        android:id="@+id/first_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtMoney"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <SeekBar
+        android:id="@+id/skFDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/first_check"
+        app:layout_constraintTop_toBottomOf="@id/first_check"
+        android:thumb="@drawable/pkm1"
+        android:max="100"
+        android:progress="0"
+        />
+
+    <CheckBox
+        android:id="@+id/second_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/first_check"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <SeekBar
+        android:id="@+id/skSSDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/second_check"
+        app:layout_constraintTop_toBottomOf="@id/second_check"
+        android:thumb="@drawable/pkm2"
+        android:max="100"
+        android:progress="0"
+        />
+
+    <CheckBox
+        android:id="@+id/third_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/second_check"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <SeekBar
+        android:id="@+id/skTDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/third_check"
+        app:layout_constraintTop_toBottomOf="@id/third_check"
+        android:thumb="@drawable/pkm3"
+        android:max="100"
+        android:progress="0"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
