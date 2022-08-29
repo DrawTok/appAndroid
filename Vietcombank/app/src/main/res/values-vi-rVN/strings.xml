@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vietcombank</string>
+    <string name="language_swt">English</string>
+    <string name="title_bank">Chào mừng quý khách đến với dịch vụ VCB Digibank</string>
+    <string name="hint_account_login">Tên đăng nhập</string>
+    <string name="suggestions_hint">(Nhập số điện thoại đăng kí dịch vụ)</string>
+    <string name="btn_login_accept">Tiếp tục</string>
+    <string name="experience_VCB">Trải nghiệm VCB Digibank</string>
+    <string name="offer_open_account">Mở tài khoản/Đăng ký VCB Digibank</string>
+    <string name="conversion_guide">Hướng dẫn chuyển đổi trên VCB Digibank</string>
+    <string name="make_appointment">Đặt lịch hẹn với Vietcombank</string>
+    <string name="search_brand">Tìm kiếm ATM/chi nhánh gần đây</string>
+</resources>
