@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomAlert</string>
+    <string name="title_login">Login</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Continue</string>
+    <string name="btn_cancel_dialog">Cancel</string>
+</resources>
