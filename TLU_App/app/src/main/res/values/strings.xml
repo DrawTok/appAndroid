@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TLIFE</string>
+
+    <string name="facebook_app_id">523089959823422</string>
+    <string name="fb_login_protocol_scheme">fb523089959823422</string>
+    <string name="facebook_client_token">f4dfc8bafe07a97689aef1841307216a</string>
+
+
+</resources>

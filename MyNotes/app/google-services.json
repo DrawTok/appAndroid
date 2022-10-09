@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892944977026",
+    "project_id": "my-notes-db7d5",
+    "storage_bucket": "my-notes-db7d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892944977026:android:56d6434d0f33e6fe0e789b",
+        "android_client_info": {
+          "package_name": "com.drawtok.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892944977026-38ihdui5rsliouv1nhi67b81uhlnrts3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0YishjokgzcKeDYu6IfY_PAFENcpYFBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892944977026-38ihdui5rsliouv1nhi67b81uhlnrts3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
