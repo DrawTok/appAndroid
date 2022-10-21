@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pick Image</string>
+    <string-array name="list_img">
+        <item>chim1</item>
+        <item>chim2</item>
+        <item>chim3</item>
+        <item>chim4</item>
+        <item>chim5</item>
+        <item>chim6</item>
+        <item>chim7</item>
+        <item>chim8</item>
+        <item>chim9</item>
+    </string-array>
+</resources>
