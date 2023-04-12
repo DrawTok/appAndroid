@@ -80,7 +80,8 @@ public class MainActivity extends AppCompatActivity {
                         //trộn mảng
                         Collections.shuffle(arrayList);
                         nameImgQuestion = arrayList.get(0);
-                        int idImg = getResources().getIdentifier(arrayList.get(0), "drawable", getPackageName());
+                        int idImg = getResources().getIdentifier(arrayList.get(0),
+                                "drawable", getPackageName());
                         imgVQuestion.setImageResource(idImg);
                     }
                 }.start();

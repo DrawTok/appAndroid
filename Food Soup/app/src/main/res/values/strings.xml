@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Food Soup</string>
+    <string name="search_store_or_product">Tìm cửa hàng hay sản phẩm</string>
+    <string name="quanh_day_co_gi_ngon">Quanh đây có gì ngon?</string>
+    <string name="food">Đồ ăn</string>
+    <string name="drink">Đồ uống</string>
+    <string name="note_for_store">Bạn có gì muốn nhắn tới nhà hàng không?</string>
+    <string name="giam">giảm</string>
+    <string name="tang">tăng</string>
+    <string name="currency_unit">đ</string>
+    <string name="add_cart">Thêm</string>
+    <string name="luu_y_1">Lưu ý tới nhà hàng</string>
+    <string name="hint_note">Ví dụ: không hành lá,...</string>
+    <string name="info_account">Thông tin tài khoản</string>
+    <string name="don_hang">Đơn hàng</string>
+    <string name="quan_li_thanh_toan">Quản lý thanh toán</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="ho_tro">Hỗ trợ</string>
+    <string name="version">Phiên bản hiện tại:</string>
+    <string name="tv_nhap_sdt">Hãy nhập số điện thoại để tiếp tục nhé!</string>
+    <string name="num_phone">Số điện thoại</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="confirm_password">Nhập lại mật khẩu</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="no_account">Bạn chưa có tài khoản?</string>
+    <string name="have_account">Bạn đã có tài khoản?</string>
+    <string name="name">Tên</string>
+    <string name="logout">Đăng xuất</string>
+</resources>

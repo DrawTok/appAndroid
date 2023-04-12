@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10dp"
+    tools:context=".AddSVActivity">
+
+    <TextView
+        android:id="@+id/tv_addSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Sinh viên"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/edt_HoTen"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/edt_HoTen"
+        android:hint="Họ tên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@id/tv_addSV"/>
+
+    <EditText
+        android:id="@+id/edt_NamSinh"
+        android:hint="Năm sinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/edt_HoTen"/>
+
+    <EditText
+        android:id="@+id/edt_DiaChi"
+        android:hint="Dịa chỉ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/edt_NamSinh"/>
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edt_DiaChi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_Cancel"
+        android:layout_marginTop="20dp"
+        android:text="Xác nhận"/>
+
+    <Button
+        android:id="@+id/btn_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edt_DiaChi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_Add"
+        android:layout_marginTop="20dp"
+        android:text="Hủy"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

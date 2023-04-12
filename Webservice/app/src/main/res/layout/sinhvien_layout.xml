@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hoten"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_namsinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="namsinh"
+        android:layout_below="@id/tv_hoten"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_diachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="diachi"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/tv_namsinh"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/imv_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        app:tint="@color/white"
+        android:src="@drawable/ic_baseline_delete_24"/>
+
+    <ImageView
+        android:id="@+id/imv_edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toStartOf="@id/imv_delete"
+        android:layout_marginEnd="5dp"
+        app:tint="@color/white"
+        android:src="@drawable/ic_baseline_edit_24"/>
+
+</RelativeLayout>

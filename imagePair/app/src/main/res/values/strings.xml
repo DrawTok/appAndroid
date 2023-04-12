@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Image Pair</string>
+    <string-array name="list_answer">
+        <item>pokemon1</item>
+        <item>pokemon2</item>
+        <item>pokemon3</item>
+        <item>pokemon4</item>
+        <item>pokemon5</item>
+        <item>pokemon6</item>
+        <item>pokemon7</item>
+        <item>pokemon8</item>
+        <item>pokemon9</item>
+    </string-array>
+</resources>
